@@ -24,3 +24,5 @@ tencentcloud-sdk-python>=3.0.1038
 texttable>=1.7.0
 twilio>=8.10.2
 tzlocal==2.1
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
